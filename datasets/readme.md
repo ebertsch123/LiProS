@@ -10,7 +10,7 @@ Every SMILES code of our database
 Experimental measurments of each data entry with its respective measurment technique and reference (**LiProS_eximental_data_refs.docx**)
 
 ## LiProS_raw_data.csv:
-Initial calculations of $\log{D_{\text{Eq. 1}}}$ and $\log{D_{\text{Eq. 2}}$
+Initial calculations of $\log{D_{\text{Eq. 1}}}$ and $\log{D_{\text{Eq. 2}}}$
 
 
 ## LiProS_descriptors_smiles.csv
