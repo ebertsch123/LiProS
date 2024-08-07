@@ -205,10 +205,10 @@ test.set_B <- bases_d[-sample.index,]
 #--------------LOGISTIC REGRESSION-----------------------------------
 
 model_LR_A <- train(cond~.,data=training.set_A,method='glm',family='binomial')
-
+saveRDS(model_LR_A,'model_LR_A.rds')
 
 model_LR_B <- train(cond~.,data=training.set_B,method='glm',family='binomial')
-
+saveRDS(model_LR_B,'model_LR_B.rds')
 #--------RANDOM FOREST----------------------
 library(randomForest)
 
@@ -217,7 +217,7 @@ mtry <- tuneRF(training.set_A[-ncol(training.set_A)],training.set_A$cond,
                stepFactor=1.2,improve=0.01, trace=TRUE, plot=TRUE)
 best.m <- mtry[mtry[, 2] == min(mtry[, 2]), 1]
 model_RF_A <- randomForest(cond~.,data=training.set_A,mtry=best.m,importance=TRUE)
-
+saveRDS(model_RF_A,'model_RF_A.rds')
 
 
 
@@ -227,7 +227,7 @@ mtry <- tuneRF(training.set_B[-ncol(training.set_B)],training.set_B$cond,
                stepFactor=1.2,improve=0.01, trace=TRUE, plot=TRUE)
 best.m <- mtry[mtry[, 2] == min(mtry[, 2]), 1]
 model_RF_B <- randomForest(cond~.,data=training.set_B,mtry=best.m,importance=TRUE)
-
+saveRDS(model_RF_B,'model_RF_B.rds')
 
 #--------SVM----------
 library(e1071)
@@ -236,10 +236,10 @@ library(e1071)
 ###MODELOS PARA LOS ACIDOS
 
 model_SVML_A <- svm(cond~.,data=training.set_A, type='C-classification',kernel="linear")
-model_SVMP_A <- svm(cond~.,data=training.set_A, type='C-classification',kernel="polynomial")
-
+saveRDS(model_SVML_A,'model_SVML_A.rds')
+                          
 model_SVML_B <- svm(cond~.,data=training.set_B, type='C-classification',kernel="linear")
-model_SVMP_B <- svm(cond~.,data=training.set_B, type='C-classification',kernel="polynomial")
+saveRDS(model_SVML_B,'model_SVML_B.rds')
 
 
 
