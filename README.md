@@ -14,9 +14,14 @@ $$\log{D_{\text{pH}}} = \log{\left(P_{\text{N}}+P_{\text{I}}^{\text{app}}\cdot10
 
 **Equation 1** is often used due to its simplicity. On the other hand, **Equation 2** often gives more accurate computations, but it requires more experimental data (the applied ionic partition coefficient of a molecule ($P_{\text{I}}^{\text{app}}$)).
 
+
 *Which equation do we use and in which cases?* This script will help you with this decision with the aim of the most accurate and efficient lipophilicity calculations.
 
 
 Herein, you can see the motivation for these scripts and our preliminary models (*ChemPhysChem*, **2023**, *24(24)*, e202300548): https://doi.org/10.1002/cphc.202300548
 
 Click here to access our Google Colab Script: https://colab.research.google.com/drive/1w9Vkqm4kIBQPn5AeSYnIwAs6vCTd8G7u?usp=sharing
+
+---
+
+This repository contains every script, dataset, and supplementary information of our manuscript *"LiProS: FAIR simulation workflow to Predict Accurate Lipophilicity Profiles for Small Molecules."* submitted to the **BIP 2024 conference**.
