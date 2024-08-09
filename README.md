@@ -1,7 +1,7 @@
 # **LiProS**
 A FAIR (*Findable, Accessible, Interoperable, and Reusable*) workflow to predict the most appropriate lipophilicity formalism for small molecules.
 ---
-<img src="https://your-image-url.type" width="100" height="100">
+<img src="https://i.imgur.com/FjTNXlA.png" width="100">
 ---
 
 $\log{D}$ is an evergrowing physicochemical property applied in drug design, environmental chemistry, medicinal chemistry, and food chemistry. It is often not possible to measure the $\log{D}$ of a molecule. Therefore, the use of thermodynamically derived equations has been successful in facilitating straightforward calculations. In this case, 2 main equations have been used.
