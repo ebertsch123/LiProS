@@ -2,9 +2,9 @@ library(caret)
 library(dplyr)
 
 #load datasets
-dataset <- read.csv('/content/LiProS/datasets/raw_data.csv')
+dataset <- read.csv('/content/datasets/raw_data.csv')
 dataset$cond <- as.factor(dataset$cond)
-descs <- read.csv('/content/LiProS/datasets/descriptors_smiles.csv')
+descs <- read.csv('/content/datasets/descriptors_smiles.csv')
 
 #include experimental descriptors
 descs$pKa <- dataset$pKa
