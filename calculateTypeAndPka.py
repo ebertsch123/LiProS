@@ -28,18 +28,6 @@ class PKaMatcher(object):
         results = {PKaType.ACIDIC.value: list(),
                    PKaType.BASIC.value: list()}
         mol = Chem.MolFromSmiles(smiles)
-        if mol is None: # Check if mol is None
-          return {} # Return empty dictionary if smiles is invalid
-        results = {'acid': list(), 'base': list()}
-        used_idx_list = list()
-        for pka_dict in self.pka_values:
-            if pka_dict['type'] not in results:
-                results[pka_dict['type']] = list()
-            used_idx_local = list()  # Used within smaller scope
-            pat = Chem.MolFromSmarts(pka_dict['smarts'])
-            for match in mol.GetSubstructMatches(pat):
-                match_idx = match[pka_dict['idx']-1]
-                used_idx_list += match
         all_used_idxs_set = set()
         # Each group is described as a list of dicts
         for pka_group_list in self.smarts_set:
