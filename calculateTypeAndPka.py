@@ -91,24 +91,3 @@ class PKaMatcher(object):
 class PKaMatcherException(Exception):
     def __init__(self):
         pass
-
-
-
-
-def Get_TypeAndPka(smi):
-  pKas = PKaMatcher().calculate_pka_from_smiles(smi)
-  Type = None
-  pKa = None
-  if pKas['acid'] == []:
-    Type = 'base'
-    pKa = pKas['base'][0]
-  elif pKas['base'] == []:
-    Type = 'acid'
-    pKa = pKas['acid'][0]
-  elif pKas['base'][0] < pKas['acid'][0]:
-    Type = 'acid'
-    pKa = pKas['acid'][0]
-  elif pKas['base'][0] > pKas['acid'][0]:
-    Type = 'base'
-    pKa = pKas['base'][0]
-  return Type, pKa
