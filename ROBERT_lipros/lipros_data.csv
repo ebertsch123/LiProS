@@ -1,0 +1,298 @@
+﻿code_name,SMILES,response
+1_2.4-Dichlorophenoxyacetic acid,C1=CC(=C(C=C1Cl)Cl)OCC(=O)O,Use Eq. 2
+2_4-Phenylbutylamine,C1=CC=C(C=C1)CCCCN,Use Eq. 1
+3_5-Phenylvaleric acid,C1=CC=C(C=C1)CCCCC(=O)O,Use Eq. 1
+4_6-Acetylmorphine,CC(=O)OC1C=CC2C3CC4=C5C2(C1OC5=C(C=C4)O)CCN3C,Use Eq. 2
+5_Acebutolol,CCCC(=O)NC1=CC(=C(C=C1)OCC(CNC(C)C)O)C(=O)C,Use Eq. 1
+6_Alprenolol,CC(C)NCC(COC1=CC=CC=C1CC=C)O,Use Eq. 1
+7_Amiodarone,CCCCC1=C(C2=CC=CC=C2O1)C(=O)C3=CC(=C(C(=C3)I)OCCN(CC)CC)I,Use Eq. 1
+8_Amitriptyline,CN(C)CCC=C1C2=CC=CC=C2CCC3=CC=CC=C31,Use Eq. 1
+9_Amlodipine,CCOC(=O)C1=C(NC(=C(C1C2=CC=CC=C2Cl)C(=O)OC)C)COCCN,Use Eq. 1
+10_Atropine,CN1C2CCC1CC(C2)OC(=O)C(CO)C3=CC=CC=C3,Use Eq. 1
+11_Buprenorphine,CC(C)(C)C(C)(C1CC23CCC1(C4C25CCN(C3CC6=C5C(=C(C=C6)O)O4)CC7CC7)OC)O,Use Eq. 1
+12_Carazolol,CC(C)NCC(COC1=CC=CC2=C1C3=CC=CC=C3N2)O,Use Eq. 1
+13_Carvedilol,COC1=CC=CC=C1OCCNCC(COC2=CC=CC3=C2C4=CC=CC=C4N3)O,Use Eq. 1
+14_Chlorpromazine,CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl,Use Eq. 1
+15_Ciprofloxacin,C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O,Use Eq. 2
+16_Debrisoquine,C1CN(CC2=CC=CC=C21)C(=N)N,Use Eq. 2
+17_Deprenyl,CC(CC1=CC=CC=C1)N(C)CC#C,Use Eq. 1
+18_Desipramine,CNCCCN1C2=CC=CC=C2CCC3=CC=CC=C31,Use Eq. 1
+19_Diclofenac,C1=CC=C(C(=C1)CC(=O)O)NC2=C(C=CC=C2Cl)Cl,Use Eq. 1
+20_Diphenhydramine,CN(C)CCOC(C1=CC=CC=C1)C2=CC=CC=C2,Use Eq. 1
+21_Ephedrine,CC(C(C1=CC=CC=C1)O)NC,Use Eq. 2
+22_Ergonovine,CC(CO)NC(=O)C1CN(C2CC3=CNC4=CC=CC(=C34)C2=C1)C,Use Eq. 1
+23_Erythromycin,CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)O)(C)O,Use Eq. 1
+24_Ethinylestradiol,CC12CCC3C(C1CCC2(C#C)O)CCC4=C3C=CC(=C4)O,Use Eq. 1
+25_Famotidine,C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N,Use Eq. 2
+26_Flufenamic acid,C1=CC=C(C(=C1)C(=O)O)NC2=CC=CC(=C2)C(F)(F)F,Use Eq. 2
+27_Fluvastatin,CC(C)N1C2=CC=CC=C2C(=C1C=CC(CC(CC(=O)O)O)O)C3=CC=C(C=C3)F,Use Eq. 1
+28_Haloperidol,C1CN(CCC1(C2=CC=C(C=C2)Cl)O)CCCC(=O)C3=CC=C(C=C3)F,Use Eq. 1
+29_Hydrochlorothiazide,C1NC2=CC(=C(C=C2S(=O)(=O)N1)S(=O)(=O)N)Cl,Use Eq. 1
+30_Ibuprofen,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,Use Eq. 1
+31_Imipramine,CN(C)CCCN1C2=CC=CC=C2CCC3=CC=CC=C31,Use Eq. 1
+32_Indomethacin,CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O,Use Eq. 1
+33_Ketoprofen,CC(C1=CC(=CC=C1)C(=O)C2=CC=CC=C2)C(=O)O,Use Eq. 1
+34_Lidocaine,CCN(CC)CC(=O)NC1=C(C=CC=C1C)C,Use Eq. 1
+35_Meloxicam,CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,Use Eq. 2
+36_Metipranolol,CC1=CC(=C(C(=C1OC(=O)C)C)C)OCC(CNC(C)C)O,Use Eq. 1
+37_Metoprolol,CC(C)NCC(COC1=CC=C(C=C1)CCOC)O,Use Eq. 1
+38_Morphine sulfate,CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O,Use Eq. 1
+39_Naproxen,CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O,Use Eq. 1
+40_Nortriptyline,CNCCC=C1C2=CC=CC=C2CCC3=CC=CC=C31,Use Eq. 1
+41_Ofloxacin,CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,Use Eq. 1
+42_Oxprenolol,CC(C)NCC(COC1=CC=CC=C1OCC=C)O,Use Eq. 1
+43_Papaverine,COC1=C(C=C(C=C1)CC2=NC=CC3=CC(=C(C=C32)OC)OC)OC,Use Eq. 1
+44_Penbutolol,CC(C)(C)NCC(COC1=CC=CC=C1C2CCCC2)O,Use Eq. 1
+45_p-F-Deprenyl,CC(CC1=CC=C(C=C1)F)N(C)CC#C,Use Eq. 1
+46_Phenazopyridine,C1=CC=C(C=C1)N=NC2=C(N=C(C=C2)N)N,Use Eq. 1
+47_Pindolol,CC(C)NCC(COC1=CC=CC2=C1C=CN2)O,Use Eq. 1
+48_Primaquine,CC(CCCN)NC1=C2C(=CC(=C1)OC)C=CC=N2,Use Eq. 2
+49_Probenecid,CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(=O)O,Use Eq. 1
+50_Procaine,CCN(CC)CCOC(=O)C1=CC=C(C=C1)N,Use Eq. 1
+51_Propranolol,CC(C)NCC(COC1=CC=CC2=CC=CC=C21)O,Use Eq. 1
+52_Prostaglandin E1,CCCCCC(C=CC1C(CC(=O)C1CCCCCCC(=O)O)O)O,Use Eq. 1
+53_Prostaglandin E2,CCCCCC(C=CC1C(CC(=O)C1CC=CCCCC(=O)O)O)O,Use Eq. 1
+54_Pyridoxine,CC1=NC=C(C(=C1O)CO)CO,Use Eq. 1
+55_Quinine,COC1=CC2=C(C=CN=C2C=C1)C(C3CC4CCN3CC4C=C)O,Use Eq. 1
+56_Roxithromycin,CCC1C(C(C(C(=NOCOCCOC)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)O)(C)O,Use Eq. 1
+57_Serotonin,C1=CC2=C(C=C1O)C(=CN2)CCN,Use Eq. 1
+58_Sotalol,CC(C)NCC(C1=CC=C(C=C1)NS(=O)(=O)C)O,Use Eq. 1
+59_Sulfasalazine,C1=CC=NC(=C1)NS(=O)(=O)C2=CC=C(C=C2)N=NC3=CC(=C(C=C3)O)C(=O)O,Use Eq. 2
+60_Tamoxifen,CCC(=C(C1=CC=CC=C1)C2=CC=C(C=C2)OCCN(C)C)C3=CC=CC=C3,Use Eq. 1
+61_Terfenadine,CC(C)(C)C1=CC=C(C=C1)C(CCCN2CCC(CC2)C(C3=CC=CC=C3)(C4=CC=CC=C4)O)O,Use Eq. 1
+62_Timolol,CC(C)(C)NCC(COC1=NSN=C1N2CCOCC2)O,Use Eq. 1
+63_Trimethoprim,COC1=CC(=CC(=C1OC)OC)CC2=CN=C(N=C2N)N,Use Eq. 1
+64_Trovafloxacin,C1C2C(C2N)CN1C3=C(C=C4C(=O)C(=CN(C4=N3)C5=C(C=C(C=C5)F)F)C(=O)O)F,Use Eq. 2
+65_Verapamil,CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC,Use Eq. 1
+66_Warfarin,CC(=O)CC(C1=CC=CC=C1)C2=C(C3=CC=CC=C3OC2=O)O,Use Eq. 1
+67_Trimethoprim,COC1=CC(=CC(=C1OC)OC)CC2=CN=C(N=C2N)N,Use Eq. 1
+68_Trimethoprim,COC1=CC(=CC(=C1OC)OC)CC2=CN=C(N=C2N)N,Use Eq. 1
+69_Trimethoprim,COC1=CC(=CC(=C1OC)OC)CC2=CN=C(N=C2N)N,Use Eq. 1
+70_Salicylic acid,C1=CC=C(C(=C1)C(=O)O)O,Use Eq. 1
+71_Salicylic acid,C1=CC=C(C(=C1)C(=O)O)O,Use Eq. 1
+72_Salicylic acid,C1=CC=C(C(=C1)C(=O)O)O,Use Eq. 1
+73_Salicylic acid,C1=CC=C(C(=C1)C(=O)O)O,Use Eq. 1
+74_Salicylic acid,C1=CC=C(C(=C1)C(=O)O)O,Use Eq. 1
+75_Salicylic acid,C1=CC=C(C(=C1)C(=O)O)O,Use Eq. 2
+76_Salicylic acid,C1=CC=C(C(=C1)C(=O)O)O,Use Eq. 2
+77_Salicylic acid,C1=CC=C(C(=C1)C(=O)O)O,Use Eq. 2
+78_Salicylic acid,C1=CC=C(C(=C1)C(=O)O)O,Use Eq. 2
+79_Diflunisal,C1=CC(=C(C=C1C2=C(C=C(C=C2)F)F)C(=O)O)O,Use Eq. 1
+80_Diflunisal,C1=CC(=C(C=C1C2=C(C=C(C=C2)F)F)C(=O)O)O,Use Eq. 1
+81_Diflunisal,C1=CC(=C(C=C1C2=C(C=C(C=C2)F)F)C(=O)O)O,Use Eq. 1
+82_Diflunisal,C1=CC(=C(C=C1C2=C(C=C(C=C2)F)F)C(=O)O)O,Use Eq. 1
+83_Diflunisal,C1=CC(=C(C=C1C2=C(C=C(C=C2)F)F)C(=O)O)O,Use Eq. 1
+84_Diflunisal,C1=CC(=C(C=C1C2=C(C=C(C=C2)F)F)C(=O)O)O,Use Eq. 1
+85_Diflunisal,C1=CC(=C(C=C1C2=C(C=C(C=C2)F)F)C(=O)O)O,Use Eq. 2
+86_Diflunisal,C1=CC(=C(C=C1C2=C(C=C(C=C2)F)F)C(=O)O)O,Use Eq. 2
+87_Diflunisal,C1=CC(=C(C=C1C2=C(C=C(C=C2)F)F)C(=O)O)O,Use Eq. 2
+88_Tolmetin,CC1=CC=C(C=C1)C(=O)C2=CC=C(N2C)CC(=O)O,Use Eq. 1
+89_Tolmetin,CC1=CC=C(C=C1)C(=O)C2=CC=C(N2C)CC(=O)O,Use Eq. 1
+90_Tolmetin,CC1=CC=C(C=C1)C(=O)C2=CC=C(N2C)CC(=O)O,Use Eq. 1
+91_Tolmetin,CC1=CC=C(C=C1)C(=O)C2=CC=C(N2C)CC(=O)O,Use Eq. 1
+92_Tolmetin,CC1=CC=C(C=C1)C(=O)C2=CC=C(N2C)CC(=O)O,Use Eq. 1
+93_Tolmetin,CC1=CC=C(C=C1)C(=O)C2=CC=C(N2C)CC(=O)O,Use Eq. 1
+94_Tolmetin,CC1=CC=C(C=C1)C(=O)C2=CC=C(N2C)CC(=O)O,Use Eq. 1
+95_Tolmetin,CC1=CC=C(C=C1)C(=O)C2=CC=C(N2C)CC(=O)O,Use Eq. 2
+96_Tolmetin,CC1=CC=C(C=C1)C(=O)C2=CC=C(N2C)CC(=O)O,Use Eq. 2
+97_Naproxen,CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O,Use Eq. 1
+98_Naproxen,CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O,Use Eq. 1
+99_Naproxen,CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O,Use Eq. 1
+100_Naproxen,CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O,Use Eq. 1
+101_Naproxen,CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O,Use Eq. 1
+102_Naproxen,CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O,Use Eq. 1
+103_Naproxen,CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O,Use Eq. 2
+104_Naproxen,CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O,Use Eq. 2
+105_Naproxen,CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O,Use Eq. 2
+106_Mefenamic acid,CC1=C(C(=CC=C1)NC2=CC=CC=C2C(=O)O)C,Use Eq. 1
+107_Mefenamic acid,CC1=C(C(=CC=C1)NC2=CC=CC=C2C(=O)O)C,Use Eq. 1
+108_Mefenamic acid,CC1=C(C(=CC=C1)NC2=CC=CC=C2C(=O)O)C,Use Eq. 1
+109_Mefenamic acid,CC1=C(C(=CC=C1)NC2=CC=CC=C2C(=O)O)C,Use Eq. 1
+110_Mefenamic acid,CC1=C(C(=CC=C1)NC2=CC=CC=C2C(=O)O)C,Use Eq. 1
+111_Mefenamic acid,CC1=C(C(=CC=C1)NC2=CC=CC=C2C(=O)O)C,Use Eq. 1
+112_Mefenamic acid,CC1=C(C(=CC=C1)NC2=CC=CC=C2C(=O)O)C,Use Eq. 1
+113_Mefenamic acid,CC1=C(C(=CC=C1)NC2=CC=CC=C2C(=O)O)C,Use Eq. 1
+114_Diclofenac,C1=CC=C(C(=C1)CC(=O)O)NC2=C(C=CC=C2Cl)Cl,Use Eq. 1
+115_Diclofenac,C1=CC=C(C(=C1)CC(=O)O)NC2=C(C=CC=C2Cl)Cl,Use Eq. 1
+116_Diclofenac,C1=CC=C(C(=C1)CC(=O)O)NC2=C(C=CC=C2Cl)Cl,Use Eq. 1
+117_Diclofenac,C1=CC=C(C(=C1)CC(=O)O)NC2=C(C=CC=C2Cl)Cl,Use Eq. 1
+118_Diclofenac,C1=CC=C(C(=C1)CC(=O)O)NC2=C(C=CC=C2Cl)Cl,Use Eq. 1
+119_Diclofenac,C1=CC=C(C(=C1)CC(=O)O)NC2=C(C=CC=C2Cl)Cl,Use Eq. 1
+120_Diclofenac,C1=CC=C(C(=C1)CC(=O)O)NC2=C(C=CC=C2Cl)Cl,Use Eq. 1
+121_Diclofenac,C1=CC=C(C(=C1)CC(=O)O)NC2=C(C=CC=C2Cl)Cl,Use Eq. 2
+122_Diclofenac,C1=CC=C(C(=C1)CC(=O)O)NC2=C(C=CC=C2Cl)Cl,Use Eq. 2
+123_Sulindac,CC1=C(C2=C(C1=CC3=CC=C(C=C3)S(=O)C)C=CC(=C2)F)CC(=O)O,Use Eq. 1
+124_Sulindac,CC1=C(C2=C(C1=CC3=CC=C(C=C3)S(=O)C)C=CC(=C2)F)CC(=O)O,Use Eq. 1
+125_Sulindac,CC1=C(C2=C(C1=CC3=CC=C(C=C3)S(=O)C)C=CC(=C2)F)CC(=O)O,Use Eq. 1
+126_Sulindac,CC1=C(C2=C(C1=CC3=CC=C(C=C3)S(=O)C)C=CC(=C2)F)CC(=O)O,Use Eq. 1
+127_Sulindac,CC1=C(C2=C(C1=CC3=CC=C(C=C3)S(=O)C)C=CC(=C2)F)CC(=O)O,Use Eq. 1
+128_Sulindac,CC1=C(C2=C(C1=CC3=CC=C(C=C3)S(=O)C)C=CC(=C2)F)CC(=O)O,Use Eq. 1
+129_Sulindac,CC1=C(C2=C(C1=CC3=CC=C(C=C3)S(=O)C)C=CC(=C2)F)CC(=O)O,Use Eq. 1
+130_Sulindac,CC1=C(C2=C(C1=CC3=CC=C(C=C3)S(=O)C)C=CC(=C2)F)CC(=O)O,Use Eq. 1
+131_Indomethacin,CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O,Use Eq. 1
+132_Indomethacin,CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O,Use Eq. 1
+133_Indomethacin,CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O,Use Eq. 1
+134_Indomethacin,CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O,Use Eq. 1
+135_Indomethacin,CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O,Use Eq. 1
+136_Indomethacin,CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O,Use Eq. 1
+137_Indomethacin,CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O,Use Eq. 1
+138_Indomethacin,CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O,Use Eq. 2
+139_Ibuprofen,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,Use Eq. 1
+140_Ibuprofen,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,Use Eq. 1
+141_Ibuprofen,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,Use Eq. 1
+142_Fluphenamic acid,C1=CC=C(C(=C1)C(=O)O)NC2=CC=CC(=C2)C(F)(F)F,Use Eq. 1
+143_Fluphenamic acid,C1=CC=C(C(=C1)C(=O)O)NC2=CC=CC(=C2)C(F)(F)F,Use Eq. 1
+144_Fluphenamic acid,C1=CC=C(C(=C1)C(=O)O)NC2=CC=CC(=C2)C(F)(F)F,Use Eq. 1
+145_Indoprofen,CC(C1=CC=C(C=C1)N2CC3=CC=CC=C3C2=O)C(=O)O,Use Eq. 1
+146_Indoprofen,CC(C1=CC=C(C=C1)N2CC3=CC=CC=C3C2=O)C(=O)O,Use Eq. 1
+147_Indoprofen,CC(C1=CC=C(C=C1)N2CC3=CC=CC=C3C2=O)C(=O)O,Use Eq. 1
+148_Ketoprofene,CC(C1=CC(=CC=C1)C(=O)C2=CC=CC=C2)C(=O)O,Use Eq. 1
+149_Ketoprofene,CC(C1=CC(=CC=C1)C(=O)C2=CC=CC=C2)C(=O)O,Use Eq. 1
+150_Ketoprofene,CC(C1=CC(=CC=C1)C(=O)C2=CC=CC=C2)C(=O)O,Use Eq. 1
+151_15421,C1COC(C2=CC=CC=C21)C3CSC(=N3)N,Use Eq. 2
+152_15421,C1COC(C2=CC=CC=C21)C3CSC(=N3)N,Use Eq. 2
+153_15421,C1COC(C2=CC=CC=C21)C3CSC(=N3)N,Use Eq. 1
+154_1774,CC(C)C(C)NC(CO)C(C1=CC=CC=C1)O,Use Eq. 2
+155_1774,CC(C)C(C)NC(CO)C(C1=CC=CC=C1)O,Use Eq. 2
+156_1774,CC(C)C(C)NC(CO)C(C1=CC=CC=C1)O,Use Eq. 1
+157_1774,CC(C)C(C)NC(CO)C(C1=CC=CC=C1)O,Use Eq. 1
+158_1774,CC(C)C(C)NC(CO)C(C1=CC=CC=C1)O,Use Eq. 1
+159_1774,CC(C)C(C)NC(CO)C(C1=CC=CC=C1)O,Use Eq. 1
+160_1774,CC(C)C(C)NC(CO)C(C1=CC=CC=C1)O,Use Eq. 1
+161_1923,CC(=O)NC1=CC=C(C=C1)S(=O)(=O)N,Use Eq. 1
+162_1923,CC(=O)NC1=CC=C(C=C1)S(=O)(=O)N,Use Eq. 1
+163_1923,CC(=O)NC1=CC=C(C=C1)S(=O)(=O)N,Use Eq. 1
+164_1923,CC(=O)NC1=CC=C(C=C1)S(=O)(=O)N,Use Eq. 1
+165_2151,CC(C)NC(CO)C(C1=CC=CC=C1)O,Use Eq. 1
+166_2151,CC(C)NC(CO)C(C1=CC=CC=C1)O,Use Eq. 1
+167_2151,CC(C)NC(CO)C(C1=CC=CC=C1)O,Use Eq. 1
+168_2151,CC(C)NC(CO)C(C1=CC=CC=C1)O,Use Eq. 1
+169_2151,CC(C)NC(CO)C(C1=CC=CC=C1)O,Use Eq. 1
+170_2151,CC(C)NC(CO)C(C1=CC=CC=C1)O,Use Eq. 1
+171_2151,CC(C)NC(CO)C(C1=CC=CC=C1)O,Use Eq. 1
+172_703,CC(CC1=CC=C(C=C1)F)NC,Use Eq. 1
+173_703,CC(CC1=CC=C(C=C1)F)NC,Use Eq. 1
+174_703,CC(CC1=CC=C(C=C1)F)NC,Use Eq. 1
+175_703,CC(CC1=CC=C(C=C1)F)NC,Use Eq. 1
+176_703,CC(CC1=CC=C(C=C1)F)NC,Use Eq. 1
+177_720,CC(CC1=CC=C(C=C1)N)NC,Use Eq. 1
+178_720,CC(CC1=CC=C(C=C1)N)NC,Use Eq. 1
+179_720,CC(CC1=CC=C(C=C1)N)NC,Use Eq. 1
+180_720,CC(CC1=CC=C(C=C1)N)NC,Use Eq. 1
+181_720,CC(CC1=CC=C(C=C1)N)NC,Use Eq. 1
+182_720,CC(CC1=CC=C(C=C1)N)NC,Use Eq. 1
+183_954,C1OC2=C(O1)C=C(C(=C2)C(=O)O)N,Use Eq. 1
+184_954,C1OC2=C(O1)C=C(C(=C2)C(=O)O)N,Use Eq. 1
+185_954,C1OC2=C(O1)C=C(C(=C2)C(=O)O)N,Use Eq. 1
+186_954,C1OC2=C(O1)C=C(C(=C2)C(=O)O)N,Use Eq. 1
+187_954,C1OC2=C(O1)C=C(C(=C2)C(=O)O)N,Use Eq. 2
+188_954,C1OC2=C(O1)C=C(C(=C2)C(=O)O)N,Use Eq. 2
+189_ACS0393,CCOC1=CC=C(C=C1)C(=O)O,Use Eq. 1
+190_ACS0393,CCOC1=CC=C(C=C1)C(=O)O,Use Eq. 1
+191_BAS85763,C1=CC(=CC=C1C(=O)O)OC2=CC=C(C=C2)C(=O)O,Use Eq. 1
+192_BAS85763,C1=CC(=CC=C1C(=O)O)OC2=CC=C(C=C2)C(=O)O,Use Eq. 1
+193_BAS85763,C1=CC(=CC=C1C(=O)O)OC2=CC=C(C=C2)C(=O)O,Use Eq. 1
+194_BAS85763,C1=CC(=CC=C1C(=O)O)OC2=CC=C(C=C2)C(=O)O,Use Eq. 1
+195_BAS85763,C1=CC(=CC=C1C(=O)O)OC2=CC=C(C=C2)C(=O)O,Use Eq. 2
+196_Benzoxazinone,C1C(=O)NC2=CC=CC=C2O1,Use Eq. 1
+197_Benzoxazinone,C1C(=O)NC2=CC=CC=C2O1,Use Eq. 1
+198_Benzoxazinone,C1C(=O)NC2=CC=CC=C2O1,Use Eq. 1
+199_Benzoxazinone,C1C(=O)NC2=CC=CC=C2O1,Use Eq. 2
+200_6-ipr-benzox.,CC(C)NCC(COC1=CC2=C(C=C1)OCC(=O)N2)O,Use Eq. 1
+201_6-ipr-benzox.,CC(C)NCC(COC1=CC2=C(C=C1)OCC(=O)N2)O,Use Eq. 1
+202_6-ipr-benzox.,CC(C)NCC(COC1=CC2=C(C=C1)OCC(=O)N2)O,Use Eq. 1
+203_6-ipr-benzox.,CC(C)NCC(COC1=CC2=C(C=C1)OCC(=O)N2)O,Use Eq. 1
+204_6-ipr-benzox.,CC(C)NCC(COC1=CC2=C(C=C1)OCC(=O)N2)O,Use Eq. 1
+205_6-tbut-benzox.,CC(C)(C)NCC(COC1=CC2=C(C=C1)OCC(=O)N2)O,Use Eq. 1
+206_6-tbut-benzox.,CC(C)(C)NCC(COC1=CC2=C(C=C1)OCC(=O)N2)O,Use Eq. 1
+207_N-ipr-benzox.,CC(C)NCC(CN1C(=O)COC2=CC=CC=C21)O,Use Eq. 1
+208_N-ipr-benzox.,CC(C)NCC(CN1C(=O)COC2=CC=CC=C21)O,Use Eq. 1
+209_Celiprolol,CCN(CC)C(=O)NC1=CC(=C(C=C1)OCC(CNC(C)(C)C)O)C(=O)C,Use Eq. 2
+210_nor-Fluoxetine,C1=CC=C(C=C1)C(CCN)OC2=CC=C(C=C2)C(F)(F)F,Use Eq. 2
+211_Promethazine,CC(CN1C2=CC=CC=C2SC3=CC=CC=C31)N(C)C,Use Eq. 1
+212_Aprindine,CCN(CC)CCCN(C1CC2=CC=CC=C2C1)C3=CC=CC=C3,Use Eq. 1
+213_Flecainide,C1CCNC(C1)CNC(=O)C2=C(C=CC(=C2)OCC(F)(F)F)OCC(F)(F)F,Use Eq. 1
+214_Propafenone,CCCNCC(COC1=CC=CC=C1C(=O)CCC2=CC=CC=C2)O,Use Eq. 1
+215_Quinacainol,CC(C)(C)C1=NC2=CC=CC=C2C(=C1)C(CCC3CCNCC3)O,Use Eq. 1
+216_Indecainide,CC(C)NCCCC1(C2=CC=CC=C2C3=CC=CC=C31)C(=O)N,Use Eq. 1
+217_Disopyramide,CC(C)N(CCC(C1=CC=CC=C1)(C2=CC=CC=N2)C(=O)N)C(C)C,Use Eq. 1
+218_Mexiletine,CC1=C(C(=CC=C1)C)OCC(C)N,Use Eq. 1
+219_Atenolol,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,Use Eq. 1
+220_Thioridazine,CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)SC,Use Eq. 1
+221_Thiethylperazine,CCSC1=CC2=C(C=C1)SC3=CC=CC=C3N2CCCN4CCN(CC4)C,Use Eq. 1
+222_Levomepromazine,CC(CN1C2=CC=CC=C2SC3=C1C=C(C=C3)OC)CN(C)C,Use Eq. 1
+223_Alimemazine,CC(CN1C2=CC=CC=C2SC3=CC=CC=C31)CN(C)C,Use Eq. 1
+224_Fluphenazine,C1CN(CCN1CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)C(F)(F)F)CCO,Use Eq. 1
+225_Sulforidazine,CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)S(=O)(=O)C,Use Eq. 1
+226_Acetic acid,CC(=O)O,Use Eq. 1
+227_Acetic acid,CC(=O)O,Use Eq. 1
+228_Acetic acid,CC(=O)O,Use Eq. 2
+229_Acetic acid,CC(=O)O,Use Eq. 2
+230_Acetic acid,CC(=O)O,Use Eq. 2
+231_Benzimidazole,C1=CC=C2C(=C1)NC=N2,Use Eq. 2
+232_Benzimidazole,C1=CC=C2C(=C1)NC=N2,Use Eq. 2
+233_Benzimidazole,C1=CC=C2C(=C1)NC=N2,Use Eq. 2
+234_Benzimidazole,C1=CC=C2C(=C1)NC=N2,Use Eq. 1
+235_Benzimidazole,C1=CC=C2C(=C1)NC=N2,Use Eq. 1
+236_Benzimidazole,C1=CC=C2C(=C1)NC=N2,Use Eq. 1
+237_Benzimidazole,C1=CC=C2C(=C1)NC=N2,Use Eq. 1
+238_Benzimidazole,C1=CC=C2C(=C1)NC=N2,Use Eq. 1
+239_Benzoic acid,C1=CC=C(C=C1)C(=O)O,Use Eq. 1
+240_Benzoic acid,C1=CC=C(C=C1)C(=O)O,Use Eq. 1
+241_Benzoic acid,C1=CC=C(C=C1)C(=O)O,Use Eq. 1
+242_Benzoic acid,C1=CC=C(C=C1)C(=O)O,Use Eq. 1
+243_Benzoic acid,C1=CC=C(C=C1)C(=O)O,Use Eq. 2
+244_Imidazole,C1=CN=CN1,Use Eq. 2
+245_Imidazole,C1=CN=CN1,Use Eq. 2
+246_Imidazole,C1=CN=CN1,Use Eq. 1
+247_Imidazole,C1=CN=CN1,Use Eq. 1
+248_Imidazole,C1=CN=CN1,Use Eq. 1
+249_Imidazole,C1=CN=CN1,Use Eq. 1
+250_Imidazole,C1=CN=CN1,Use Eq. 1
+251_Imidazole,C1=CN=CN1,Use Eq. 1
+252_Isophthalic acid,C1=CC(=CC(=C1)C(=O)O)C(=O)O,Use Eq. 1
+253_Isophthalic acid,C1=CC(=CC(=C1)C(=O)O)C(=O)O,Use Eq. 1
+254_Isophthalic acid,C1=CC(=CC(=C1)C(=O)O)C(=O)O,Use Eq. 1
+255_Isophthalic acid,C1=CC(=CC(=C1)C(=O)O)C(=O)O,Use Eq. 2
+256_Isophthalic acid,C1=CC(=CC(=C1)C(=O)O)C(=O)O,Use Eq. 2
+257_o-phthalic acid,C1=CC=C(C(=C1)C(=O)O)C(=O)O,Use Eq. 1
+258_o-phthalic acid,C1=CC=C(C(=C1)C(=O)O)C(=O)O,Use Eq. 1
+259_o-phthalic acid,C1=CC=C(C(=C1)C(=O)O)C(=O)O,Use Eq. 1
+260_o-phthalic acid,C1=CC=C(C(=C1)C(=O)O)C(=O)O,Use Eq. 1
+261_o-phthalic acid,C1=CC=C(C(=C1)C(=O)O)C(=O)O,Use Eq. 2
+262_o-phthalic acid,C1=CC=C(C(=C1)C(=O)O)C(=O)O,Use Eq. 2
+263_Oxalic acid,C(=O)(C(=O)O)O,Use Eq. 1
+264_Oxalic acid,C(=O)(C(=O)O)O,Use Eq. 2
+265_Oxalic acid,C(=O)(C(=O)O)O,Use Eq. 2
+266_Oxalic acid,C(=O)(C(=O)O)O,Use Eq. 2
+267_Oxalic acid,C(=O)(C(=O)O)O,Use Eq. 2
+268_Salicylic acid,C1=CC=C(C(=C1)C(=O)O)O,Use Eq. 1
+269_Salicylic acid,C1=CC=C(C(=C1)C(=O)O)O,Use Eq. 1
+270_Salicylic acid,C1=CC=C(C(=C1)C(=O)O)O,Use Eq. 2
+271_Salicylic acid,C1=CC=C(C(=C1)C(=O)O)O,Use Eq. 2
+272_Salicylic acid,C1=CC=C(C(=C1)C(=O)O)O,Use Eq. 2
+273_Theophylline,CN1C2=C(C(=O)N(C1=O)C)NC=N2,Use Eq. 1
+274_Theophylline,CN1C2=C(C(=O)N(C1=O)C)NC=N2,Use Eq. 1
+275_Theophylline,CN1C2=C(C(=O)N(C1=O)C)NC=N2,Use Eq. 1
+276_Theophylline,CN1C2=C(C(=O)N(C1=O)C)NC=N2,Use Eq. 1
+277_Theophylline,CN1C2=C(C(=O)N(C1=O)C)NC=N2,Use Eq. 1
+278_Theophylline,CN1C2=C(C(=O)N(C1=O)C)NC=N2,Use Eq. 2
+279_Theophylline,CN1C2=C(C(=O)N(C1=O)C)NC=N2,Use Eq. 2
+280_Tyrosine,C1=CC(=CC=C1CC(C(=O)O)N)O,Use Eq. 1
+281_Tyrosine,C1=CC(=CC=C1CC(C(=O)O)N)O,Use Eq. 1
+282_Tyrosine,C1=CC(=CC=C1CC(C(=O)O)N)O,Use Eq. 1
+283_Tyrosine,C1=CC(=CC=C1CC(C(=O)O)N)O,Use Eq. 1
+284_Tyrosine,C1=CC(=CC=C1CC(C(=O)O)N)O,Use Eq. 1
+285_Tyrosine,C1=CC(=CC=C1CC(C(=O)O)N)O,Use Eq. 1
+286_Tyrosine,C1=CC(=CC=C1CC(C(=O)O)N)O,Use Eq. 1
+287_Tyrosine,C1=CC(=CC=C1CC(C(=O)O)N)O,Use Eq. 1
+288_Tyrosine,C1=CC(=CC=C1CC(C(=O)O)N)O,Use Eq. 1
+289_Tyrosine,C1=CC(=CC=C1CC(C(=O)O)N)O,Use Eq. 2
+290_Histidine,C1=C(NC=N1)CC(C(=O)O)N,Use Eq. 2
+291_Histidine,C1=C(NC=N1)CC(C(=O)O)N,Use Eq. 2
+292_Histidine,C1=C(NC=N1)CC(C(=O)O)N,Use Eq. 2
+293_Histidine,C1=C(NC=N1)CC(C(=O)O)N,Use Eq. 2
+294_Histidine,C1=C(NC=N1)CC(C(=O)O)N,Use Eq. 1
+295_Histidine,C1=C(NC=N1)CC(C(=O)O)N,Use Eq. 1
+296_Histidine,C1=C(NC=N1)CC(C(=O)O)N,Use Eq. 1
+297_Histidine,C1=C(NC=N1)CC(C(=O)O)N,Use Eq. 1

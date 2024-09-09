@@ -9,7 +9,7 @@ test.set_A$avg <- as.factor(round((as.numeric(test.set_A$LR) + as.numeric(test.s
 
 test.set_B$avg <- as.factor(round((as.numeric(test.set_B$LR) + as.numeric(test.set_B$RF)  + as.numeric(test.set_B$SVML))/3-1,0))
 
-
+robert <- read.csv('datasets/ADAB_90_test_No_PFI.csv')
 
 
 #tabulate confusion matrices values into vectors for each ML model
@@ -56,6 +56,10 @@ avg_B <- c(table(test.set_B$cond,test.set_B$avg)[1],
            table(test.set_B$cond,test.set_B$avg)[3],
            table(test.set_B$cond,test.set_B$avg)[4])
 
+rob <- c(table(robert$response,robert$response_pred)[1],
+         table(robert$response,robert$response_pred)[2],
+         table(robert$response,robert$response_pred)[3],
+         table(robert$response,robert$response_pred)[4])
 
 
 #create a dataframe with confusion matrix values
@@ -63,8 +67,9 @@ conf_A <- data.frame('result' = c('True Positive', 'False Negative', 'False Posi
                         'LR' = LR_A, 
                         'RF' = RF_A,
                         'SVML' = SVML_A,
-                        'avg' = avg_A)
-
+                        'avg' = avg_A,
+                        'robert' = rob)
+write.csv(conf_A, file = 'confusionmatrix_acids.csv')
 
 #calculate accuracy, sensitivity, and specificity of each value
 acc_A <- c()
@@ -77,7 +82,7 @@ for(i in 2:ncol(conf_A)){
 }
 
 
-res_A <- data.frame('ML' = c('LR', 'RF', 'SVML', 'average'),
+res_A <- data.frame('ML' = c('LR', 'RF', 'SVML', 'average','ROBERT'),
                     'Accuracy' = acc_A, 
                     'Sensitivity' = sens_A, 
                     'Specificity' = spec_A)
@@ -92,7 +97,10 @@ conf_B <- data.frame('result' = c('True Positive', 'False Negative', 'False Posi
                      'LR' = LR_B, 
                      'RF' = RF_B,
                      'SVML' = SVML_B,
-                     'avg' = avg_B)
+                     'avg' = avg_B,
+                     'robert' = rob)
+
+write.csv(conf_B, file = 'confusionmatrix_bases.csv')
 
 acc_B <- c()
 sens_B <- c()
@@ -104,7 +112,7 @@ for(i in 2:ncol(conf_B)){
 }
 
 
-res_B <- data.frame('ML' = c('LR', 'RF', 'SVML', 'average'),
+res_B <- data.frame('ML' = c('LR', 'RF', 'SVML', 'average', 'ROBERT'),
                     'Accuracy' = acc_B, 
                     'Sensitivity' = sens_B, 
                     'Specificity' = spec_B)
@@ -137,11 +145,11 @@ p1 <- ggplot(results_A) +
         axis.title.y = element_blank(),
         axis.ticks.y = element_blank(),
         legend.title = element_blank(),
-        legend.text = element_text(size=16),
+        legend.text = element_text(size=13),
         legend.position = 'bottom',
         plot.title = element_text(size = 20, face = 'bold', hjust = 0.5)) +
   labs(y="Value",x="Confusion Matrix Results", title = 'Acids') + 
-  scale_fill_manual(values=c('red','blue4','darkgreen','gold3')) + 
+  scale_fill_manual(values=c('red','blue4','darkgreen','gold3','purple')) + 
   coord_polar() + 
   annotate(geom='text',label='0.5',x=0.5,y=0.5,size=3.6,alpha=0.5) +
   annotate(geom='text',label='0.6',x=0.5,y=0.6,size=3.6,alpha=0.5) +
@@ -169,11 +177,11 @@ p2 <- ggplot(results_B) +
         axis.title.y = element_blank(),
         axis.ticks.y = element_blank(),
         legend.title = element_blank(),
-        legend.text = element_text(size=16),
+        legend.text = element_text(size=13),
         legend.position = 'bottom',
         plot.title = element_text(size = 20, face = 'bold', hjust = 0.5)) +
   labs(y="Value",x="Confusion Matrix Results", title = 'Bases') + 
-  scale_fill_manual(values=c('red','blue4','darkgreen','gold3')) + 
+  scale_fill_manual(values=c('red','blue4','darkgreen','gold3','purple')) + 
   coord_polar() + 
   annotate(geom='text',label='0.5',x=0.5,y=0.5,size=3.6,alpha=0.5) +
   annotate(geom='text',label='0.6',x=0.5,y=0.6,size=3.6,alpha=0.5) +
