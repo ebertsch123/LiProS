@@ -162,3 +162,40 @@ plots_grid <- grid.arrange(do.call(arrangeGrob,c(plots, ncol = 2, nrow = 1)))
 
 ggsave('plots/importance.pdf', plot = plots_grid, width = 15, height = 6, units = 'in')
 ggsave('plots/importance.png', plot = plots_grid, width = 15, height = 6, units = 'in')
+
+
+
+
+library(readxl)
+library(svglite)
+naprore <- read_excel('NAPRORE_lipros/naprore_sample.xlsx') 
+naprore$NPC_PATHWAY_1 <- ifelse(is.na(naprore$NPC_PATHWAY_1), "No label", naprore$NPC_PATHWAY_1)
+naprore$Prediction <- ifelse(is.na(naprore$Prediction), "No prediction", naprore$Prediction)
+
+
+n <- table(naprore$NPC_PATHWAY_1)
+
+
+p3 <- ggplot(naprore) + 
+  geom_bar(aes(y = NPC_PATHWAY_1, fill = Prediction), 
+           position = 'fill', 
+           color = 'black') + 
+  theme(panel.background = element_blank(),
+        panel.border = element_rect(fill = NA, color = 'black', linewidth = 1), 
+        legend.direction = 'horizontal', 
+        legend.position = 'bottom', 
+        axis.text = element_text(size = 14), 
+        axis.title = element_text(size = 16),
+        legend.text = element_text(size = 14)) + 
+  labs(x = "Amount", y = "") + 
+  scale_fill_manual("", values = c('gray', 'magenta4', 'red4')) + 
+  geom_label(aes(x = 0.8, y = 1, label = paste('n =', n[[1]])), size = 6) + 
+  geom_label(aes(x = 0.8, y = 2, label = paste('n =', n[[2]])), size = 6) + 
+  geom_label(aes(x = 0.8, y = 3, label = paste('n =', n[[3]])), size = 6) + 
+  geom_label(aes(x = 0.8, y = 4, label = paste('n =', n[[4]])), size = 6) + 
+  geom_label(aes(x = 0.8, y = 5, label = paste('n =', n[[5]])), size = 6) + 
+  geom_label(aes(x = 0.8, y = 6, label = paste('n =', n[[6]])), size = 6) + 
+  geom_label(aes(x = 0.8, y = 7, label = paste('n =', n[[7]])), size = 6) 
+
+ggsave('plots/naprore.pdf', plot = p3, width = 8, height = 6, units = 'in')
+ggsave('plots/naprore.png', plot = p3, width = 8, height = 6, units = 'in')
