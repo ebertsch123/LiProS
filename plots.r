@@ -199,3 +199,53 @@ p3 <- ggplot(naprore) +
 
 ggsave('plots/naprore.pdf', plot = p3, width = 8, height = 6, units = 'in')
 ggsave('plots/naprore.png', plot = p3, width = 8, height = 6, units = 'in')
+
+
+
+
+
+
+####plot OUTLIERS NAPRORE
+
+outliers_naprore <- read.csv('NAPRORE_lipros/outliers.csv')
+acids_norm <- acids_d[,-ncol(acids_d)]
+
+for (i in 1:ncol(acids_norm)){
+  acids_norm[,i] <- abs(acids_norm[,i])/max(acids_norm[,i])
+  outliers_naprore[,i] <- abs(outliers_naprore[,i])/max(acids_norm[,i])
+}
+
+acids_norm <- pivot_longer(acids_norm, 
+                           cols = everything()
+                           ,names_to = "Descriptor", 
+                           values_to = "rel_value")
+
+
+outliers_naprore <- pivot_longer(outliers_naprore, 
+                           cols = everything()
+                           ,names_to = "Descriptor", 
+                           values_to = "rel_value")
+
+outliers_naprore$mol <- c(rep('Gemin D', 21), rep('Borucoside', 21))
+
+
+
+
+p4 <- ggplot() + 
+  geom_violin(aes(x = acids_norm$rel_value, y = acids_norm$Descriptor, fill = acids_norm$Descriptor), width = 2) + 
+  geom_point(aes(x = outliers_naprore$rel_value[-c(1,22)], y = outliers_naprore$Descriptor[-c(1,22)], colour = outliers_naprore$mol[-c(1,22)]),
+             size = 4) + 
+  theme_minimal() + 
+  theme(panel.border = element_rect(fill = NA, color = 'black', linewidth = 1), 
+        legend.direction = 'horizontal', 
+        legend.position = 'bottom',
+        legend.text = element_text(size = 14),
+        axis.text = element_text(size = 14), 
+        axis.title = element_text(size = 16)) + 
+  guides(fill = 'none') + 
+  scale_color_manual("", values = c("red4", "purple4")) + 
+  labs(x = "Relative value", y = "Descriptor")
+
+
+ggsave('plots/outliers.pdf', plot = p4, width = 8.5, height = 11, units = 'in')
+ggsave('plots/outliers.png', plot = p4, width = 8.5, height = 11, units = 'in')
