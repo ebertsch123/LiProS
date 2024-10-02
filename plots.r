@@ -273,7 +273,7 @@ p <- ggplot(naprore) +
           legend.title = element_text(size=12),
           legend.text = element_text(size=10),
           legend.position = 'none') + 
-    labs(y=col_name,x='Pathway') 
+    labs(x=col_name,y='Pathway') 
   
   naprore_violins[[i-23]] <- p #se pone cada grafica en la lista
 }
