@@ -249,3 +249,40 @@ p4 <- ggplot() +
 
 ggsave('plots/outliers.pdf', plot = p4, width = 8.5, height = 11, units = 'in')
 ggsave('plots/outliers.png', plot = p4, width = 8.5, height = 11, units = 'in')
+
+
+
+
+#chemical space mapping of naprore
+naprore$NPC_PATHWAY_1 <- gsub("Amino acids and Peptides", "Amino acids \nand Peptides", naprore$NPC_PATHWAY_1)
+naprore$NPC_PATHWAY_1 <- gsub("Shikimates and Phenylpropanoids", "Shikimates and \nPhenylpropanoids",naprore$NPC_PATHWAY_1)
+
+naprore_violins <- list()
+
+for (i in 24:29) {
+  col_name <- colnames(naprore)[i]
+  
+p <- ggplot(naprore) + 
+    geom_violin(aes_string(y = "NPC_PATHWAY_1", fill = "NPC_PATHWAY_1", x = col_name),color="black", size=0.4) +
+    geom_jitter(aes_string(y = "NPC_PATHWAY_1", color = "NPC_PATHWAY_1", x = col_name),width=0.8, alpha = 0.5) +
+    theme(panel.background = element_blank(), panel.border = element_rect(fill=NA,colour="black",size=1),
+          axis.title.x = element_text(size = 12),
+          axis.text.x = element_text(size = 10),
+          axis.text.y = element_text(size = 10),
+          axis.title.y = element_text(size = 12),
+          legend.title = element_text(size=12),
+          legend.text = element_text(size=10),
+          legend.position = 'none') + 
+    labs(y=col_name,x='Pathway') 
+  
+  naprore_violins[[i-23]] <- p #se pone cada grafica en la lista
+}
+  
+plots_grid <- grid.arrange(do.call(arrangeGrob,c(naprore_violins, ncol = 3, nrow = 2)))
+ggsave('plots/naprore_cs.pdf', plot = plots_grid, width = 14, height = 8, units = 'in')
+ggsave('plots/naprore_cs.png', plot = plots_grid, width = 14, height = 8, units = 'in')
+
+
+
+
+  
